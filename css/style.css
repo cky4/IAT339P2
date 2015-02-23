@@ -228,6 +228,21 @@ img {
 	transition: border .25s linear,color .25s linear,background-color .25s linear;
 }
 
+.form-big {
+	height: 84px;
+	width: 200px;
+	padding: 8px 12px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	line-height: 1.467;
+	color: #7F8C8D;
+	border: 2px solid #7F8C8D;
+	border-radius: 6px;
+	box-shadow: none;
+	-webkit-transition: border .25s linear,color .25s linear,background-color .25s linear;
+	transition: border .25s linear,color .25s linear,background-color .25s linear;
+}
+
 .form-default:focus {
 	border-color: #27AE60;
 	outline: 0;
