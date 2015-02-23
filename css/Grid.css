@@ -21,6 +21,11 @@
 .col-2of10{
 	width:20%;
 }
+
+.col-2of12{
+	width:16.666%;
+}
+
 .grid:after{
 content:"";
 display:block;
@@ -39,6 +44,12 @@ clear:both;
 @media(max-width: 30em){
 
 .col-2of10{
+	width: 100%
+		}
+}
+@media(max-width: 35em){
+
+.col-2of12{
 	width: 100%
 		}
 }
