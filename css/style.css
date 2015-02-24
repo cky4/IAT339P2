@@ -464,8 +464,16 @@ footer a:hover {
  * ========================================================= */
 
 .hundred {
-	display: block;
+	box-sizing: border-box;
+	display: inline-block;
 	width: 100%;
+}
+
+.ninty {
+	box-sizing: border-box;
+	display: inline-block;
+	height: auto;
+	width: 90%;
 }
 
 .eighty {
