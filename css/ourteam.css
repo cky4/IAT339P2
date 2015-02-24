@@ -1,0 +1,44 @@
+body {
+	padding-top: 50px;
+}
+
+#ourteam {
+	height:auto;
+	padding: 20px;
+}
+
+#ourteam div {
+	height: 300px;
+	width: 300px;
+	-webkit-transition: box-shadow .2s ease-out;
+	-moz-transition: box-shadow .2s ease-out;
+	transition: box-shadow .2s ease-out;
+	background: url('http://placehold.it/300x300') center center no-repeat;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+#ourteam div:hover {
+	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3);
+	z-index: 2;
+}
+
+.box {
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.box-team-members {
+	-webkit-flex-grow: 1;
+	-moz-flex-grow: 1;
+	-o-flex-grow: 1;
+	flex-grow: 1;
+}

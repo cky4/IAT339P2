@@ -555,3 +555,33 @@ footer a:hover {
 #introduction-information p {
 	padding-top: 16px;
 }
+
+/* =========================================================
+ * FOOTER STYLES - 
+ * ========================================================= */
+
+footer {
+	text-align: center;
+	min-height: 200px;
+	background-color: #262626;
+	padding-top: 60px;
+	border-bottom: 5px solid #000;
+	margin-bottom: -2px;
+}
+
+footer p {
+	padding-top: 12px;
+}
+
+ footer a:link, footer a:visited, footer a:active {
+	color: #767676;
+	font-size: 1.2em;
+}
+
+footer a i {
+	padding: 24px;
+}
+
+footer a:hover {
+	color: #e5e5e5;
+}
