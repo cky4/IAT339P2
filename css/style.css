@@ -426,3 +426,23 @@ nav.navigation ul li a:active {
 	display: inline-block;
 	width: 10%;
 }
+
+.center {
+    left: 50%;
+}
+
+@media(max-width: 35em){
+
+.thirty{
+	width: 100%
+		}
+@media(max-width: 35em){
+
+.fifty{
+	width: 100%
+		}
+@media(max-width: 35em){
+
+.ninty{
+	width: 100%
+		}
