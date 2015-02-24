@@ -8,12 +8,9 @@ html {
   * Above calls a natural box layout model to all elements.
   * Below calls no padding on all elements, define everything.
   * ========================================================= */
-
 * {
 	padding: 0;
 	margin: 0;
-	font-family: 'Istok Web', sans-serif;
-	font-size: 20px;
 }
 
  /* =========================================================
@@ -28,21 +25,19 @@ body {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.container {
-	margin: 0 auto;
-	width: 1200px;
-	padding: 32px;
-	font-size: 1em;
+/* =========================================================
+ * index-link to be removed when index is actually created
+ * ========================================================= */
+.index-link {
+	padding-top: 48px;
 }
-
-.container:first-child {
-	margin-top: 50px;
-	padding: 1em;
-}
-
-.container.open {
-	opacity: .40;
-}
+.index-link a:link {color: #27AE60; font-size: 2em; text-align: center;}
+.index-link a:visited {color: #27AE60;}
+.index-link a:hover {color: #16BD50; text-decoration: underline;}
+.index-link a:active {color: #7F8C8D; }
+/* =========================================================
+ * index-link to be removed when index is actually created
+ * ========================================================= */
 
 div.headline {
 	padding: 73px 0 110px;
@@ -72,6 +67,13 @@ div.headline h1.logo small {
 	margin-top: -24px;
 }
 
+.container {
+	margin: 0 auto;
+	width: 1200px;
+	padding: 32px;
+	font-size: 1em;
+}
+
 section {
 	font-size: 0;
 	position: relative;
@@ -81,6 +83,10 @@ section {
 	margin-top: 32px;
 	margin-left: -24px;
 	color: #27AE60;
+}
+
+.no-top {
+	margin-top: 0px;
 }
 
 .examples h1,
@@ -142,9 +148,9 @@ p.type-title {
 	color: #CC9900;
 }
 
-/* =========================================================
- * TYPOGRAPHY & SIZING - all styles for typography & tags used.
- * ========================================================= */
+ /* =========================================================
+  * TYPOGRAPHY & SIZING - all styles for typography & tags used.
+  * ========================================================= */
 section {
 	background-color: #fff;
 	padding: 32px 48px;
@@ -196,7 +202,7 @@ small {
 
 img {
 	max-width: 100%;
-	/*border-radius: 10px;*/
+	border-radius: 10px;
 	border: 0px solid #000;
 	display: block;
 	height: auto;
@@ -222,23 +228,12 @@ img {
 	transition: border .25s linear,color .25s linear,background-color .25s linear;
 }
 
-textarea {
-width: 30em;
-height: 10em;
-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 15px;
-color: #7F8C8D;
-	border: 2px solid #7F8C8D;
-	border-radius: 6px;
-	box-shadow: none;
-}
-
-
 .form-default:focus {
 	border-color: #27AE60;
 	outline: 0;
 	box-shadow: none;
 }
+
  /* =========================================================
   * BUTTON STYLES - each buttons default styles
   * ========================================================= */
@@ -274,284 +269,148 @@ color: #7F8C8D;
  }
 
  /* =========================================================
- * NAV - consistant nav styles 
- * ========================================================= */
+  * NAVIGATION STYLES - each nav items default styles
+  * ========================================================= */
 
-nav {
-	top: 0;
-	position: fixed;
-	z-index: 5;
-	background-color: #333;
-	height: 50px;
-	border-bottom: 5px solid #000
+nav.navigation {
+	font-size: 14px;
+	padding-top: 16px;
 }
 
-nav ul {
-	width: 100%;
+nav.navigation ul {
 	font-size: 0;
 }
 
-nav ul li {
-	width: 100%;
-	color: #878787;
-	position: relative;
-}
-
-nav ul li a:link {
-	font-family: 'Muli', sans-serif;
-	display: block;
-	width: 100%;
-	color: #878787;
-	line-height: 50px;
-	text-decoration: none;
-	text-align: center;
-	list-style-type: none;
-
-	-webkit-translation: background-color 0.5s ease-out;
-	transition: background-color 0.5s ease-out;
-}
-
-nav ul li a:visited {
-	color: #878787;
-	text-decoration: none;
-}
-
-nav ul li a:hover, nav ul li a:focus {
-	background-color: #000;
-	color: #e5e5e5;
-	text-decoration: none;
-}
-
-nav ul li a:active {
-	color: #edce60;
-	text-decoration: none;
-}
-
-nav ul li.active a {
-	color: #edce60;
-}
-
-ul.examples {
-	list-style-type: none;
-}
-ul.examples li {
-	padding: .5em 0;
-}
-a:link {
-	font-weight: 200;
-	color: #217ABF;
-	list-style-type: none;
-	text-decoration: none;
-}
-
-a:visited {
-	color: #217ABF;
-	text-decoration: none;
-}
-
-a:hover, nav ul li a:focus {
-	color: #064A7E;
-	text-decoration: none;
-}
-
-a:active {
-	color: #064A7E;
-	text-decoration: none;
-}
-
-ul li a.logo {
-	text-indent: 35px;
-	width: 100%;
-	background: url('../img/logo-white.png') no-repeat center center;
-	background-size: 59px;
-	content: "";
-}
-
-ul li a.logo:hover {
-	color: #fff;
-}
-
- /* =========================================================
- * FOOTER STYLES - 
- * ========================================================= */
-
-footer {
-	text-align: center;
-	min-height: 200px;
-	background-color: #262626;
-	padding-top: 150px;
-	border-bottom: 5px solid #000;
-	margin-bottom: -2px;
-	-webkit-animation-delay: .5s; /* Chrome, Safari, Opera */
-    animation-delay: .5s;
-}
-
- footer a:link, footer a:visited, footer a:active {
-	color: #595959;
-	font-size: 1.2em;
-}
-
-footer a i {
-	padding: 24px;
-}
-
-footer a:hover {
-	color: #e5e5e5;
-}
-
- /* =========================================================
- * Mobile Menu - hidden with margins until bars are selected
- * ========================================================= */
-
- nav button {
- 	line-height: 40px;
-	width: 50px;
-	background-color: #222;
-	border: none;
-	outline: 0;
- }
-
- nav button i {
-		line-height: 50px;
-		width: 100%;
-		color: #fff;
-	}
-
- .page-title-mobile {
- 	padding-left: 20px;
- 	line-height: 50px;
- 	color: #fff;
- 	font-size: .8em;
- }
-
-#menu-mobile {
-	width: 60%;
-	height: 100%;
-	position: fixed;
-	top:0;
-	left:0;
-	margin-left: -60%;
-	margin-top: 50px;
-	background: #111;
-	z-index: 10;
-
-	border-left: 1px solid rgba(0,0,0,0.1);
-	-moz-transition: 	all .28s cubic-bezier(.4,0,.2,1);
-	-webkit-transition: all .28s cubic-bezier(.4,0,.2,1);
-	transition: 		all .28s cubic-bezier(.4,0,.2,1);
+nav.navigation ul li {
 	box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-/*	padding: 20px;
-	padding-top: 84px;*/
+	display: inline-block;
+	list-style-type: none;
 }
 
-#menu-mobile.open {
-	margin-left: 0;
+nav.navigation ul li a {
+	text-align: center;
+ 	white-space: normal;
+ 	padding: 24px 32px;
+	font-size: 18px;
+	line-height: 24px;
+	color: #fff;
+	background-color: #27AE60;
+	-webkit-transition: border .25s linear,color .25s linear,background-color .25s linear;
+	transition: border .25s linear,color .25s linear,background-color .25s linear;
+	-webkit-font-smoothing: subpixel-antialiased;
+	text-decoration: none;
 }
 
-#button-mobile {
-	padding-top: 5px;
+nav.navigation ul li:first-child a {
+	border-top-left-radius: 6px;
+	border-bottom-left-radius: 6px;
 }
 
-#button-mobile.open i {
-	color: #27AE60;
-	padding-top: 5px;
+nav.navigation ul li:last-child a {
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+
+nav.navigation ul li a:visited{
+ 	color: #fff;
+	background-color: #27AE60;
+ }
+
+ nav.navigation ul li a:hover, nav.navigation ul li a:focus {
+ 	color: #fff;
+	background-color: #2ECC71;
+	border-color: #2ECC71;
+ }
+
+nav.navigation ul li a:active {
+ 	background: #95A5A6;
+	border-color: #95A5A6;
+ }
+
+ nav.navigation ul li a.active {
+ 	color: #fff;
+	background-color: #2ECC71;
+	border-color: #2ECC71;
 }
 
  /* =========================================================
- * WIDTH CLASSES - percentages used to maintain inline-blocks
- * ========================================================= */
+  * WIDTH CLASSES - percentages used to maintain inline-blocks
+  * ========================================================= */
 
 .hundred {
-	display: block;
+	box-sizing: border-box;
+	display: inline-block;
 	width: 100%;
+}
+
+.ninty {
+	box-sizing: border-box;
+	display: inline-block;
+	width: 90%;
 }
 
 .eighty {
 	box-sizing: border-box;
 	display: inline-block;
-	height: auto;
 	width: 80%;
+}
+
+.threequarters {
+	box-sizing: border-box;
+	display: inline-block;
+	width: 75%;
 }
 
 .seventy {
 	box-sizing: border-box;
 	display: inline-block;
-	height: auto;
 	width: 70%;
 }
 
 .sixty {
 	box-sizing: border-box;
 	display: inline-block;
-	height: auto;
 	width: 60%;
 }
 
 .fifty {
 	box-sizing: border-box;
 	display: inline-block;
-	height: auto;
 	width: 50%;
 }
 
 .fourty {
 	box-sizing: border-box;
 	display: inline-block;
-	height: auto;
 	width: 40%;
 }
 
 .third {
 	box-sizing: border-box;
 	display: inline-block;
-	height: auto;
 	width: 33.33%;
 }
 
 .thirty {
 	box-sizing: border-box;
 	display: inline-block;
-	height: auto;
 	width: 30%;
 }
 
 .quarter {
 	box-sizing: border-box;
 	display: inline-block;
-	height: auto;
 	width: 25%;
 }
 
 .twenty {
 	box-sizing: border-box;
 	display: inline-block;
-	height: auto;
 	width: 20%;
 }
 
 .ten {
 	box-sizing: border-box;
 	display: inline-block;
-	height: auto;
 	width: 10%;
-}
-
- /* =========================================================
-  * PAGE BY PAGE STYLES - all styles for individual pages.
-  * ========================================================= */
-
-/* index.html */
-
-#introduction-information {
-
-}
-
-#introduction-information img {
-
-}
-
-#introduction-information p {
-	padding-top: 16px;
 }
