@@ -13,7 +13,7 @@ body {
 	-webkit-transition: box-shadow .2s ease-out;
 	-moz-transition: box-shadow .2s ease-out;
 	transition: box-shadow .2s ease-out;
-	background: url('http://placehold.it/1200x200') center center no-repeat;
+	/* background: url('http://placehold.it/1200x200') center center no-repeat; */
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -42,4 +42,78 @@ body {
 	-moz-flex-grow: 1;
 	-o-flex-grow: 1;
 	flex-grow: 1;
+	
+}
+
+.box-health-servicesa {
+	-webkit-flex-grow: 1;
+	-moz-flex-grow: 1;
+	-o-flex-grow: 1;
+	flex-grow: 1;
+	background: url("../img/chiro.jpg") center center no-repeat;
+}
+
+.box-health-servicesb {
+	-webkit-flex-grow: 1;
+	-moz-flex-grow: 1;
+	-o-flex-grow: 1;
+	flex-grow: 1;
+	background: url("../img/release.jpg") center center no-repeat;
+}
+
+.box-health-servicesc {
+	-webkit-flex-grow: 1;
+	-moz-flex-grow: 1;
+	-o-flex-grow: 1;
+	flex-grow: 1;
+	background: url("../img/fit.jpg") center center no-repeat;
+}
+.box-health-servicesd {
+	-webkit-flex-grow: 1;
+	-moz-flex-grow: 1;
+	-o-flex-grow: 1;
+	flex-grow: 1;
+	background: url("../img/massage.jpg") center center no-repeat;
+}
+.box-health-servicese {
+	-webkit-flex-grow: 1;
+	-moz-flex-grow: 1;
+	-o-flex-grow: 1;
+	flex-grow: 1;
+	background: url("../img/lightforcetherapy2.jpg") center center no-repeat;
+}
+.box-health-servicesf {
+	-webkit-flex-grow: 1;
+	-moz-flex-grow: 1;
+	-o-flex-grow: 1;
+	flex-grow: 1;
+	background: url("../img/hiking.jpg") center center no-repeat;
+}
+.box-health-servicesg {
+	-webkit-flex-grow: 1;
+	-moz-flex-grow: 1;
+	-o-flex-grow: 1;
+	flex-grow: 1;
+	background: url("../img/main.jpg") center center no-repeat;
+}
+.box-health-servicesh {
+	-webkit-flex-grow: 1;
+	-moz-flex-grow: 1;
+	-o-flex-grow: 1;
+	flex-grow: 1;
+	background: url("../img/foot.jpg") center center no-repeat;
+}
+.box-health-servicesi {
+	-webkit-flex-grow: 1;
+	-moz-flex-grow: 1;
+	-o-flex-grow: 1;
+	flex-grow: 1;
+	background: url("../img/golf.jpg") center center no-repeat;
+}
+.box-health-servicesj {
+	-webkit-flex-grow: 1;
+	-moz-flex-grow: 1;
+	-o-flex-grow: 1;
+	flex-grow: 1;
+	background: url("../img/medical.jpg") center center no-repeat;
 }
