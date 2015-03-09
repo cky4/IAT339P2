@@ -4,10 +4,12 @@
 @media only screen and (min-width : 320px) {
     .container {
     	box-sizing: border-box;
-		width: 320px;
 		margin: 0 auto;
 		margin-top: 50px;
-	}	
+	}
+	.hidden-sm {
+		display: none;
+	}
 	nav {
 		height: 50px;
 	}
@@ -31,9 +33,38 @@
 	.active.hundred a {
 		font-size: 1em;
 	}
+	.hero-text {
+		font-size: 2em;
+	}
 	.page-title-mobile {
 		display: inline-block;
 	}
+	.section-title {
+		margin-left: 0px;
+	}
+	.intro-text {
+		padding-top: 24px;
+	}
+	.intro-text:first-child {
+		padding-top: 0;
+	}
+	.locations {
+		padding-bottom: 0;
+	}
+	.location01, .location02, .location03 {
+		margin-bottom: 0;
+	}
+	.ninty 	 {width: 100%;}
+	.eighty  {width: 100%;}
+	.seventy {width: 100%;}
+	.sixty 	 {width: 100%;}
+	.fifty 	 {width: 100%;}
+	.fourty	 {width: 100%;}
+	.third 	 {width: 100%;}
+	.thirty  {width: 100%;}
+	.quarter {width: 100%;}
+	.twenty  {width: 100%;}
+	.ten 	 {width: 100%;}
 }
 
 /* Extra Small Devices, Phones */ 
@@ -43,9 +74,11 @@
 	}
 	.container {
 		box-sizing: border-box;
-		width: 480px;
 		margin: 0 auto;
 		margin-top: 50px;
+	}
+	.hidden-sm {
+		display: inline-block;
 	}
 	nav {
 		height: 50px;
@@ -70,9 +103,38 @@
 	.active.hundred a {
 		font-size: 1.5em;
 	}
+	.hero-text {
+		font-size: 2em;
+	}
 	.page-title-mobile {
 		display: inline-block;
 	}
+	.section-title {
+		margin-left: 0px;
+	}
+	.intro-text {
+		padding-top: 24px;
+	}
+	.intro-text:first-child {
+		padding-top: 0;
+	}
+	.locations {
+		padding-bottom: 0;
+	}
+	.location01, .location02, .location03 {
+		margin-bottom: 0;
+	}
+	.ninty 	 {width: 100%;}
+	.eighty  {width: 100%;}
+	.seventy {width: 100%;}
+	.sixty 	 {width: 100%;}
+	.fifty 	 {width: 100%;}
+	.fourty	 {width: 100%;}
+	.third 	 {width: 100%;}
+	.thirty  {width: 100%;}
+	.quarter {width: 100%;}
+	.twenty  {width: 100%;}
+	.ten 	 {width: 100%;}
 }
 
 /* Small Devices, Tablets */
@@ -82,9 +144,11 @@
 	}
 	.container {
 		box-sizing: border-box;
-		width: 768px;
 		margin: 0 auto;
 		margin-top: 50px;
+	}
+	.hidden-sm {
+		display: inline-block;
 	}
 	nav {
 		height: 50px;
@@ -109,9 +173,38 @@
 	.active.hundred a {
 		font-size: 1.5em;
 	}
+	.hero-text {
+		font-size: 3em;
+	}
 	.page-title-mobile {
 		display: inline-block;
 	}
+	.section-title {
+		margin-left: 12px;
+	}
+	.intro-text {
+		padding-top: 0;
+	}
+	.intro-text:first-child {
+		padding-top: 0;
+	}
+	.locations {
+		padding-bottom: 0;
+	}
+	.location01, .location02, .location03 {
+		margin-bottom: 0;
+	}
+	.ninty 	 {width: 100%;}
+	.eighty  {width: 100%;}
+	.seventy {width: 100%;}
+	.sixty 	 {width: 100%;}
+	.fifty 	 {width: 100%;}
+	.fourty	 {width: 100%;}
+	.third 	 {width: 100%;}
+	.thirty  {width: 100%;}
+	.quarter {width: 100%;}
+	.twenty  {width: 100%;}
+	.ten 	 {width: 100%;}
 }
 
 /* Medium Devices, Desktops */
@@ -121,9 +214,11 @@
 	}
 	.container {
 		box-sizing: border-box;
-		width: 992px;
 		margin: 0 auto;
 		margin-top: 50px;
+	}
+	.hidden-sm {
+		display: inline-block;
 	}
 	nav {
 		height: 50px;
@@ -145,9 +240,38 @@
 	.nav-list-mobile {
 		display: none;
 	}
+	.hero-text {
+		font-size: 3em;
+	}
 	.page-title-mobile {
 		display: none;
 	}
+	.section-title {
+		margin-left: 12px;
+	}
+	.intro-text {
+		padding-top: 0;
+	}
+	.intro-text:first-child {
+		padding-top: 0;
+	}
+	.locations {
+		padding-bottom: 32px;
+	}
+	.location01, .location02, .location03 {
+		margin-bottom: 8px;
+	}
+	.ninty 	 {width: 90%;}
+	.eighty  {width: 80%;}
+	.seventy {width: 70%;}
+	.sixty 	 {width: 60%;}
+	.fifty 	 {width: 50%;}
+	.fourty	 {width: 40%;}
+	.third 	 {width: 33.33%;}
+	.thirty  {width: 30%;}
+	.quarter {width: 25%;}
+	.twenty  {width: 20%;}
+	.ten 	 {width: 10%;}
 }
 
 /* Large Devices, Wide Screens */
@@ -157,9 +281,11 @@
 	}
 	.container {
 		box-sizing: border-box;
-		width: 1200px;
 		margin: 0 auto;
 		margin-top: 50px;
+	}
+	.hidden-sm {
+		display: inline-block;
 	}
 	nav {
 		height: 50px;
@@ -181,7 +307,36 @@
 	.nav-list-mobile {
 		display: none;
 	}
+	.hero-text {
+		font-size: 3em;
+	}
 	.page-title-mobile {
 		display: none;
 	}
+	.section-title {
+		margin-left: 12px;
+	}
+	.intro-text {
+		padding-top: 0;
+	}
+	.intro-text:first-child {
+		padding-top: 0;
+	}
+	.locations {
+		padding-bottom: 32px;
+	}
+	.location01, .location02, .location03 {
+		margin-bottom: 8px;
+	}
+	.ninty 	 {width: 90%;}
+	.eighty  {width: 80%;}
+	.seventy {width: 70%;}
+	.sixty 	 {width: 60%;}
+	.fifty 	 {width: 50%;}
+	.fourty	 {width: 40%;}
+	.third 	 {width: 33.33%;}
+	.thirty  {width: 30%;}
+	.quarter {width: 25%;}
+	.twenty  {width: 20%;}
+	.ten 	 {width: 10%;}
 }
