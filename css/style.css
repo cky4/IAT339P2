@@ -99,6 +99,17 @@ ul.location-info li {
 	font-weight: lighter;
 }
 
+.service-title {
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	color: #fff;
+	text-shadow: 2px 2px rgba(0, 0, 0, 0.6);
+	
+}
+
+
 div.headline {
 	padding: 73px 0 110px;
 	text-align: center;
