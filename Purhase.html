@@ -5,6 +5,8 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/media-query.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/purhase.css">
+	<link rel="stylesheet" href="css/performance.css">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -51,11 +53,37 @@
 		
 			<h2 class="hundred nametitle">Purchase</h2>
 
+
+			<div class"yogamat">
+				 <p>Yoga mats for sale $10 each!</p>
+				<img src="img/Mat.jpg">
+
+			</div>
+
+			<div class="container">
+
+
+				<form action="cart.html" method="post">
+				<input type="hidden" name="op" value="add">
+				<input type="hidden" name="OptionCount" value="1">
+				<input type="text" name="item_qty" value="1" size="3">
 				
+				<select name="Option1" style="text-input">
+				
+				<option value="Red" selected>Red</option>
+				<option value="Green|0" >Green </option>
+				<option value="Brown|0" >Brown </option>
+				<option value="Blue|10" >Blue</option>
+				<option value="Pink|10" >Pink</option>
+				<option value="Yellow|-20" >Yellow</option>
+				</select>
+				
+				<input type="submit" value="Add to Cart" style="width:125px;">
+				</form>	
+		    </div>
 	
 	
 	</div>
-
 	</div>
 
 
