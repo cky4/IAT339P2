@@ -85,3 +85,10 @@ body {
 	padding-right: 8px;
 	padding-bottom: 2px;
 }
+
+.performance-link {
+	display: block;
+    height: 100%;
+    width: 100%;
+    z-index: 5;
+}
