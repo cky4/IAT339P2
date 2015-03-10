@@ -1,4 +1,75 @@
 /* Media Queries */
+@media only screen and (min-width : 1px) {
+	 .container {
+    	box-sizing: border-box;
+		margin: 0 auto;
+		margin-top: 50px;
+	}
+	.hidden-sm {
+		display: none;
+	}
+	nav {
+		height: 50px;
+	}
+	nav ul li a:link, nav ul li a:visited {
+		font-size: .75em;
+		color: #e5e5e5;
+	}
+	nav ul li a:hover, nav ul li a:focus {
+		background-color: #444;
+		color: #fff;
+	}
+	nav ul li.active {
+		background-color: #222;
+	}
+	.nav-list-desktop {
+		display: none;
+	}
+	.nav-list-mobile {
+		display: inline-block;
+	}
+	.active.hundred a {
+		font-size: 1em;
+	}
+	.hero-text {
+		font-size: 2em;
+	}
+	.page-title-mobile {
+		display: inline-block;
+	}
+	.section-title {
+		margin-left: 0px;
+	}
+	.intro-text {
+		padding-top: 24px;
+	}
+	.intro-text:first-child {
+		padding-top: 0;
+	}
+	.locations {
+		padding-bottom: 0;
+	}
+	.location01, .location02, .location03 {
+		margin-bottom: 0;
+	}
+	.location-info li {
+		opacity: 1;
+	}
+	#healthservices div {
+		height: 200px;
+	}
+	.ninty 	 {width: 100%;}
+	.eighty  {width: 100%;}
+	.seventy {width: 100%;}
+	.sixty 	 {width: 100%;}
+	.fifty 	 {width: 100%;}
+	.fourty	 {width: 100%;}
+	.third 	 {width: 100%;}
+	.thirty  {width: 100%;}
+	.quarter {width: 100%;}
+	.twenty  {width: 100%;}
+	.ten 	 {width: 100%;}
+}
 
 /* Custom, iPhone Retina */ 
 @media only screen and (min-width : 320px) {
