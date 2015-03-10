@@ -8,22 +8,22 @@ body {
 }
 
 #healthservices div {
-	height: 200px;
+	height: 400px;
 	width: 1200px;
-	-webkit-transition: box-shadow .2s ease-out;
-	-moz-transition: box-shadow .2s ease-out;
-	transition: box-shadow .2s ease-out;
+	-webkit-transition: all .2s ease-out;
+	-moz-transition: all .2s ease-out;
+	transition: all .2s ease-out;
 	/* background: url('http://placehold.it/1200x200') center center no-repeat; */
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
-  	margin-bottom: 16px;
+  	margin-bottom: 48px;
   	margin-top:0;
 }
 
 #healthservices div:hover {
-	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3);
+	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.5);
 }
 
 .box {
@@ -42,7 +42,7 @@ body {
 	-moz-flex-grow: 1;
 	-o-flex-grow: 1;
 	flex-grow: 1;
-	
+	position: relative;
 }
 
 .box-health-servicesa {
@@ -51,6 +51,7 @@ body {
 	-o-flex-grow: 1;
 	flex-grow: 1;
 	background: url("../img/chiro.jpg") center center no-repeat;
+	position: relative;
 }
 
 .box-health-servicesb {
@@ -59,6 +60,7 @@ body {
 	-o-flex-grow: 1;
 	flex-grow: 1;
 	background: url("../img/release.jpg") center center no-repeat;
+	position: relative;
 }
 
 .box-health-servicesc {
@@ -67,6 +69,7 @@ body {
 	-o-flex-grow: 1;
 	flex-grow: 1;
 	background: url("../img/fit.jpg") center center no-repeat;
+	position: relative;
 }
 .box-health-servicesd {
 	-webkit-flex-grow: 1;
@@ -74,6 +77,7 @@ body {
 	-o-flex-grow: 1;
 	flex-grow: 1;
 	background: url("../img/massage.jpg") center center no-repeat;
+	position: relative;
 }
 .box-health-servicese {
 	-webkit-flex-grow: 1;
@@ -81,6 +85,7 @@ body {
 	-o-flex-grow: 1;
 	flex-grow: 1;
 	background: url("../img/lightforcetherapy2.jpg") center center no-repeat;
+	position: relative;
 }
 .box-health-servicesf {
 	-webkit-flex-grow: 1;
@@ -88,6 +93,7 @@ body {
 	-o-flex-grow: 1;
 	flex-grow: 1;
 	background: url("../img/hiking.jpg") center center no-repeat;
+	position: relative;
 }
 .box-health-servicesg {
 	-webkit-flex-grow: 1;
@@ -95,6 +101,7 @@ body {
 	-o-flex-grow: 1;
 	flex-grow: 1;
 	background: url("../img/main.jpg") center center no-repeat;
+	position: relative;
 }
 .box-health-servicesh {
 	-webkit-flex-grow: 1;
@@ -102,6 +109,7 @@ body {
 	-o-flex-grow: 1;
 	flex-grow: 1;
 	background: url("../img/foot.jpg") center center no-repeat;
+	position: relative;
 }
 .box-health-servicesi {
 	-webkit-flex-grow: 1;
@@ -109,6 +117,7 @@ body {
 	-o-flex-grow: 1;
 	flex-grow: 1;
 	background: url("../img/golf.jpg") center center no-repeat;
+	position: relative;
 }
 .box-health-servicesj {
 	-webkit-flex-grow: 1;
@@ -116,4 +125,5 @@ body {
 	-o-flex-grow: 1;
 	flex-grow: 1;
 	background: url("../img/medical.jpg") center center no-repeat;
+	position: relative;
 }
