@@ -37,6 +37,13 @@ body {
 	flex-wrap: wrap;
 }
 
+.health-services-link {
+	display: block;
+    height: 100%;
+    width: 100%;
+    z-index: 5;
+}
+
 .box-health-services {
 	-webkit-flex-grow: 1;
 	-moz-flex-grow: 1;

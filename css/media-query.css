@@ -54,6 +54,12 @@
 	.location01, .location02, .location03 {
 		margin-bottom: 0;
 	}
+	.location-info li {
+		opacity: 1;
+	}
+	#healthservices div {
+		height: 200px;
+	}
 	.ninty 	 {width: 100%;}
 	.eighty  {width: 100%;}
 	.seventy {width: 100%;}
@@ -123,6 +129,12 @@
 	}
 	.location01, .location02, .location03 {
 		margin-bottom: 0;
+	}
+	.location-info li {
+		opacity: 1;
+	}
+	#healthservices div {
+		height: 200px;
 	}
 	.ninty 	 {width: 100%;}
 	.eighty  {width: 100%;}
@@ -194,6 +206,12 @@
 	.location01, .location02, .location03 {
 		margin-bottom: 0;
 	}
+	.location-info li {
+		opacity: 0;
+	}
+	#healthservices div {
+		height: 300px;
+	}
 	.ninty 	 {width: 100%;}
 	.eighty  {width: 100%;}
 	.seventy {width: 100%;}
@@ -261,6 +279,12 @@
 	.location01, .location02, .location03 {
 		margin-bottom: 8px;
 	}
+	.location-info li {
+		opacity: 0;
+	}
+	#healthservices div {
+		height: 400px;
+	}
 	.ninty 	 {width: 90%;}
 	.eighty  {width: 80%;}
 	.seventy {width: 70%;}
@@ -327,6 +351,12 @@
 	}
 	.location01, .location02, .location03 {
 		margin-bottom: 8px;
+	}
+	.location-info li {
+		opacity: 0;
+	}
+	#healthservices div {
+		height: 400px;
 	}
 	.ninty 	 {width: 90%;}
 	.eighty  {width: 80%;}
