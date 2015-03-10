@@ -66,7 +66,7 @@ body {
 	-moz-flex-grow: 1;
 	-o-flex-grow: 1;
 	flex-grow: 1;
-	background: url("../img/release.jpg") center center no-repeat;
+	background: url("../img/art.jpg") center center no-repeat;
 	position: relative;
 }
 
@@ -107,7 +107,7 @@ body {
 	-moz-flex-grow: 1;
 	-o-flex-grow: 1;
 	flex-grow: 1;
-	background: url("../img/main.jpg") center center no-repeat;
+	background: url("../img/strength.jpg") center center no-repeat;
 	position: relative;
 }
 .box-health-servicesh {
